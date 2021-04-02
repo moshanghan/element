@@ -1,0 +1,30 @@
+.ms-table {
+  .el-table {
+    margin-bottom: 0px;
+
+    td .cell {
+      line-height: 24px;
+    }
+  }
+
+  .table-radio-none {
+    .el-radio__label {
+      display: none;
+    }
+  }
+
+  .hide-disable-checkbox {
+    .el-checkbox.is-disabled {
+      visibility: hidden;
+    }
+  }
+
+}
+
+.ml-flex {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
